@@ -1,0 +1,350 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*caursol*/
+.back{
+    width:100%;
+    height:80vh;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame{
+    width:60%;
+    height:500px;
+    background-color: aliceblue;
+    overflow: hidden;
+    border: 2px solid rgb(252, 248, 248);
+    box-shadow: 0px 0px 15px rgb(248, 249, 249);
+    position:relative;
+}
+
+.crousel{
+    width:600%;
+    height:500px;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+     
+}
+
+.slides{
+    width:20%;
+    height:100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    overflow:hidden;
+    object-fit:contain;
+}
+
+img{
+    height:80%;
+    object-fit:cover;
+}
+
+/* header*/
+.details{
+    height:20vh;
+    width:100%;
+    background-color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    text-shadow: 0px 0px 25px red;
+    flex-direction: column;
+}
+
+.name{
+    font-size:90px;
+}
+
+.director{
+    font-size: 20px;
+    color:aliceblue;
+    text-shadow: 20px white;
+    margin:3px;
+}
+
+/* nav bar */
+.btn{
+    height: 70px;
+    width:100%;
+    /*background-color: aliceblue;*/
+    position: absolute;
+    top:225px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.abtn{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 400;
+    color: rgb(242, 240, 240);
+    margin:8px;
+
+
+}
+
+.abtn:hover{
+    cursor: pointer;
+    color:rgb(13, 13, 13);
+    background-color:white;
+    box-shadow: 5px white;
+    
+}
+
+/* movie detail section */
+.section1{
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    height:30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar{
+    width:80%;
+    height:100px;
+    background-color: black;
+    border-radius: 10px;
+    border:2px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px white;
+}
+.movielist{
+    color:white;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+     
+}
+
+.cstate{
+
+    padding:10px 15px;
+    background-color:rgb(245, 240, 240) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 6, 6);
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px white;
+    
+}
+
+
+.navbar:hover{
+    box-shadow: 1px 1px 20px rgb(72, 196, 14);
+}
+
+.m1{
+    width:100%;
+    height:70vh;
+    background-image:url("https://e1.pxfuel.com/desktop-wallpaper/48/105/desktop-wallpaper-karthi-s-khaidi-movie-super-stills-kaithi-movie.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.ds{
+    background-color:rgba(12, 12, 12,0.5);
+    position:absolute;
+    top:24vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;  
+}
+
+.ds>p{
+    margin:20px; 
+    text-shadow: 0px 0px 20px white;  
+    font-size:18px;
+    background-image: url("");
+}
+
+.m2{
+    width:100%;
+    height:70vh;
+    background-image: url("https://preview.redd.it/vikram-2022-movie-poster-i-made-inspired-by-vintage-posters-v0-1mpy79pkcx3a1.jpg?width=3840&format=pjpg&auto=webp&s=3aa4264c1740ccb5cebaf218d5b185bf9286d4b2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    position: relative;
+}
+
+.m3{
+    width:100%;
+    height:70vh;
+    background-image: url("https://static.toiimg.com/thumb/msid-101172246,width-1280,resizemode-4/101172246.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center;*/
+    position: relative;
+}
+
+.m4{
+    width:100%;
+    height:70vh;
+    background-image: url("https://i.pinimg.com/originals/45/2a/15/452a159c10ce08244d37966d6a0e19db.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:auto;
+    position: relative;
+
+}
+
+.m4{
+    width:100%;
+    height:70vh;
+    background-image: url("https://i.pinimg.com/originals/45/2a/15/452a159c10ce08244d37966d6a0e19db.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+
+}
+
+.m5{
+    width:100%;
+    height:70vh;
+    background-image: url("https://i.ytimg.com/vi/l3yYTzzVstg/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+
+}
+
+.ltt{
+    font-size:80px;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.actcolor{
+    border:2px solid rgba(255, 0, 0, 0.829);
+    color:white;
+    box-shadow: 0px 0px 15px red;
+    background-color: red;
+    cursor: pointer;
+    text-shadow: 0px 0px 20px white; 
+}
+
+#one{
+    display:none;
+}
+
+#two{
+    display:none;
+}
+
+#three{
+    display:none;
+}
+
+.mbtn{
+    box-shadow: 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 6, 6);
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px white;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-left:45%;
+    margin-bottom: 2px;
+}
+
+#four{
+    display:none;
+}
+
+#five{
+    display:none;
+}
+
+
+/* individual pages detaails */
+
+
+.mhed{
+    color:aliceblue;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 10px white;
+
+}
+.mdetails{
+    width:100%;
+    height:100vh;
+    color: white;
+    text-shadow: 0px 0px 20px white;
+    display:flex;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BOTA4NjQ4ZWYtODU3ZS00MDFhLTgzNjItOGQ4ZjRmZDBlZGQ2XkEyXkFqcGdeQXVyMjI1NTc2MTc@._V1_.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.mdh{
+    width:35%;
+    height:80vh;
+    display:flex;
+    justify-content:flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    border:2px solid red;
+    background-color: rgba(12, 12, 12,0.5);
+    box-shadow: 0px 0px 15px red;
+
+
+
+}
+
+hr{
+    color:white;
+}
