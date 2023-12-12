@@ -1,2 +1,2 @@
 # Dom-project
-page using html css js
+page using HTML CSS Js
